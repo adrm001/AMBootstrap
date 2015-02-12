@@ -262,21 +262,21 @@
   text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
 }
 .navbar-inverse {
-  background-image: -webkit-linear-gradient(top, #e56b00 0%, #b25300 100%);
-  background-image:      -o-linear-gradient(top, #e56b00 0%, #b25300 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e56b00), to(#b25300));
-  background-image:         linear-gradient(to bottom, #e56b00 0%, #b25300 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe56b00', endColorstr='#ffb25300', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #ff8012 0%, #de6700 100%);
+  background-image:      -o-linear-gradient(top, #ff8012 0%, #de6700 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8012), to(#de6700));
+  background-image:         linear-gradient(to bottom, #ff8012 0%, #de6700 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff8012', endColorstr='#ffde6700', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .active > a {
-  background-image: -webkit-linear-gradient(top, #7f3b00 0%, #8c4100 100%);
-  background-image:      -o-linear-gradient(top, #7f3b00 0%, #8c4100 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#7f3b00), to(#8c4100));
-  background-image:         linear-gradient(to bottom, #7f3b00 0%, #8c4100 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7f3b00', endColorstr='#ff8c4100', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #ff7600 0%, #ff7d0d 100%);
+  background-image:      -o-linear-gradient(top, #ff7600 0%, #ff7d0d 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff7600), to(#ff7d0d));
+  background-image:         linear-gradient(to bottom, #ff7600 0%, #ff7d0d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff7600', endColorstr='#ffff7d0d', GradientType=0);
   background-repeat: repeat-x;
   -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);
           box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);

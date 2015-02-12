@@ -56,7 +56,7 @@
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               desaturate(lighten(@brand-light2,5%),15%);
+@body-bg:               lighten(@brand-light2,22%);
 //** Global text color on `<body>`.
 @text-color:            @gray-dark;
 
@@ -410,28 +410,28 @@
 
 // Inverted navbar
 // Reset inverted navbar basics
-@navbar-inverse-color:                      lighten(@gray-light, 15%);
-@navbar-inverse-bg:                         @brand-dark9;
-@navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-color:                      #fff;
+@navbar-inverse-bg:                         darken(@brand-primary, 6.5%);
+@navbar-inverse-border:                     @brand-primary;
 
 // Inverted navbar links
-@navbar-inverse-link-color:                 lighten(@gray-light, 15%);
-@navbar-inverse-link-hover-color:           #fff;
+@navbar-inverse-link-color:                 #fff;
+@navbar-inverse-link-hover-color:           darken(@brand-dark9, 10%);
 @navbar-inverse-link-hover-bg:              transparent;
 @navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
-@navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-link-active-bg:             @brand-primary;
 @navbar-inverse-link-disabled-color:        #444;
 @navbar-inverse-link-disabled-bg:           transparent;
 
 // Inverted navbar brand label
 @navbar-inverse-brand-color:                @navbar-inverse-link-color;
-@navbar-inverse-brand-hover-color:          #fff;
+@navbar-inverse-brand-hover-color:          @navbar-inverse-link-hover-color;
 @navbar-inverse-brand-hover-bg:             transparent;
 
 // Inverted navbar toggle
-@navbar-inverse-toggle-hover-bg:            #333;
-@navbar-inverse-toggle-icon-bar-bg:         #fff;
-@navbar-inverse-toggle-border-color:        #333;
+@navbar-inverse-toggle-hover-bg:            @brand-dark9;
+@navbar-inverse-toggle-icon-bar-bg:         @brand-light2;
+@navbar-inverse-toggle-border-color:        @brand-light2;
 
 
 //== Navs
@@ -506,7 +506,7 @@
 
 @jumbotron-padding:              30px;
 @jumbotron-color:                inherit;
-@jumbotron-bg:                   @brand-light2;
+@jumbotron-bg:                   lighten(@brand-light2,20%);
 @jumbotron-heading-color:        inherit;
 @jumbotron-font-size:            ceil((@font-size-base * 1.5));
 
